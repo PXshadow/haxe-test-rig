@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
           java-version: '11'
 
-      - uses: leafo/gh-actions-lua@v8.0.0 #lua
+      - uses: xpol/setup-lua@v1 #lua
         with:
           luaVersion: "5.1.5"
 
