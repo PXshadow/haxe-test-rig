@@ -27,6 +27,7 @@
 --cmd haxe --run Exec bin/cs/bin Main
 
 --next
+-D HXCPP_NONINTERACTIVE
 -lib hxcpp
 --cpp bin/cpp
 --cmd haxe --run Exec bin/cpp Main

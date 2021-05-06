@@ -7,6 +7,6 @@ function main() {
         case "Windows":
             Sys.command(name);
         default:
-            Sys.command('./$name');
+            Sys.command(name);
     }
 }
