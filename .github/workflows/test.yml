@@ -11,23 +11,24 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1       #nodejs
+      - uses: actions/setup-node@v1 #nodejs
         with:
           node-version: '14'
 
-      - uses: actions/setup-java@v2       #java
+      - uses: actions/setup-java@v2 #java
         with:
+          distribution: 'adopt'
           java-version: '11'
 
       - uses: leafo/gh-actions-lua@v8.0.0 #lua
         with:
           luaVersion: "5.1.5"
 
-      - uses: actions/setup-python@v2     #python
+      - uses: actions/setup-python@v2 #python
         with:
           python-version: '3.x'
 
-      - uses: pxshadow/setup-hashlink@v1.0.0  #hashlink
+      - uses: pxshadow/setup-hashlink@v1.0.0 #hashlink
 
       - name: install lix
         run: npm i lix -g
