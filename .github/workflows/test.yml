@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
           java-version: '11'
 
-      - uses: xpol/setup-lua@v1 #lua
+      - uses: xpol/setup-lua@v0.3 #lua
         with:
           luaVersion: "5.1.5"
 
