@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-java@v2       #java
       - uses: leafo/gh-actions-lua@v8.0.0 #lua
       - uses: actions/setup-python@v2     #python
-      - uses: pxshadow/setup-hashlink@v1  #hashlink
+      - uses: pxshadow/setup-hashlink@v1.0.0  #hashlink
 
       - name: install lix
         run: npm i lix -g
