@@ -1,0 +1,4 @@
+# @install: lix --silent download "gh://github.com/HaxeFoundation/hxcs#9564570346582599d7aacee566e7947d02def744" into hxcs/4.2.0/github/9564570346582599d7aacee566e7947d02def744
+# @run: haxelib run-dir hxcs ${HAXE_LIBCACHE}/hxcs/4.2.0/github/9564570346582599d7aacee566e7947d02def744
+-cp ${HAXE_LIBCACHE}/hxcs/4.2.0/github/9564570346582599d7aacee566e7947d02def744/
+-D hxcs=4.2.0
